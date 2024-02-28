@@ -1,11 +1,17 @@
 html {
   background-color: rgb(206, 224, 224);
 }
+body {
+  align-items: center;
+}
 .wrapper {
   display: grid;
+  /* max-width: 96vw; */
+  /* margin: 0 auto; */
   gap: 10px;
   grid-template-columns: repeat(auto-fit, 500px);
   grid-auto-rows: max-content;
+  justify-content: center;
   align-items: center;
 }
 .box {
