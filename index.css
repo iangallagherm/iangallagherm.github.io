@@ -1,8 +1,12 @@
+html {
+  height: 100%;
+}
 body {
+  display: table;
+  height: 100%;
   width: 1000px;
   margin: 0 auto;
   background-color: rgb(206, 224, 224);
-  padding: 0 20px 20px 20px;
 }
 h1 {
   color: rgb(153, 46, 46);
@@ -12,7 +16,7 @@ li {
 }
 .wrapper {
   width: 1000px;
-  margin: 0 auto;
-  padding: 25px;
+  height: calc(100% - 100px);
+  padding: 50px;
   background-color: rgb(226, 211, 211);
 }
