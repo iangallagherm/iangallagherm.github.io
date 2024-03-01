@@ -6,10 +6,10 @@ body {
   height: 100%;
   width: 1000px;
   margin: 0 auto;
-  background-color: rgb(206, 224, 224);
+  background-color: #cee0e0;
 }
 h1 {
-  color: rgb(153, 46, 46);
+  color: #992e2e;
 }
 li {
   list-style: circle;
@@ -18,5 +18,5 @@ li {
   width: 1000px;
   height: calc(100% - 100px);
   padding: 50px;
-  background-color: rgb(226, 211, 211);
+  background-color: #e2d3d3;
 }
