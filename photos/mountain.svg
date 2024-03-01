@@ -20,7 +20,7 @@
     <rect width="100%" height="100%" fill="#2e72c0" />
 
     <!-- Sun -->
-    <circle cx="900" cy="100" r="80" fill="#efd96c" />
+    <circle cx="700" cy="800" r="100" fill="#efd96c" />
 
     <!-- Lake -->
     <rect x="400" y="800" width="600" height="200" fill="#20578e" />
@@ -32,8 +32,8 @@
     <!-- <path d="M 100 500 C 100 500 250 500 200 600 Z" fill="#4b6167" /> -->
 
     <!-- Pair of skis centered and rotated -->
-    <g transform="rotate(10, 500, 500)">
-        <rect fill="url(#ski)" x="360" y="100" width="80" height="800" />
-        <rect fill="url(#ski)" x="580" y="100" width="80" height="800" />
+    <g transform="rotate(90, 500, 500)">
+        <rect fill="url(#ski)" x="360" y="150" width="80" height="700" />
+        <rect fill="url(#ski)" x="580" y="150" width="80" height="700" />
     </g>
 </svg>
